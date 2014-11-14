@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.roboguice</groupId>
             <artifactId>roboguice</artifactId>
-            <version>3.0</version>
+            <version>3.0-alpha-2</version>
         </dependency>
 
 <!--        <dependency>
@@ -76,6 +76,16 @@
                     <undeployBeforeDeploy>true</undeployBeforeDeploy>
                 </configuration>
                 <extensions>true</extensions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.1</version>
+                <configuration>
+                    <useAgent>true</useAgent>
+                    <executable>gpg2</executable>
+                </configuration>
             </plugin>
 
             <plugin>

@@ -32,11 +32,21 @@
             <version>4.3.7.Final</version>
         </dependency>
 
+<!--     MySQL Dependency
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.21</version>
+        </dependency>-->
+
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.3-1102-jdbc41</version>
         </dependency>
+
     </dependencies>
 
 
