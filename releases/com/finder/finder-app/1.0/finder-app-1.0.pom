@@ -21,32 +21,22 @@
             <groupId>org.roboguice</groupId>
             <artifactId>roboguice</artifactId>
             <version>3.0-alpha-2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.inject</groupId>
+                    <artifactId>javax.inject</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>aopalliance</groupId>
+                    <artifactId>aopalliance</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
-
-<!--        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-            <version>3.0</version>
-            <classifier>no_aop</classifier>
-        </dependency>-->
 
         <dependency>
             <groupId>com.finder</groupId>
-            <artifactId>finder-model</artifactId>
+            <artifactId>finder-rs-client</artifactId>
             <version>1.0</version>
-        </dependency>
-
-        <!-- JSON Parser -->
-        <dependency>
-            <groupId>org.codehaus.jackson</groupId>
-            <artifactId>jackson-core-asl</artifactId>
-            <version>1.9.12</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.code.ksoap2-android</groupId>
-            <artifactId>ksoap2-android</artifactId>
-            <version>3.3.0</version>
         </dependency>
 
         <!-- PROVIDED DEPENDENCIES -->

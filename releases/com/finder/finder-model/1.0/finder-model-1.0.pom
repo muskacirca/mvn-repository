@@ -17,14 +17,4 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
-
-    <dependencies>
-
-        <dependency>
-            <groupId>com.google.code.ksoap2-android</groupId>
-            <artifactId>ksoap2-android</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-    </dependencies>
 </project>
