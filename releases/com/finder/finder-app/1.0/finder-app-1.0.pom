@@ -33,6 +33,23 @@
             </exclusions>
         </dependency>
 
+     <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.0-beta5</version>
+            <classifier>no_aop</classifier>
+         <exclusions>
+             <exclusion>
+                 <groupId>javax.inject</groupId>
+                 <artifactId>javax.inject</artifactId>
+             </exclusion>
+             <exclusion>
+                 <groupId>aopalliance</groupId>
+                 <artifactId>aopalliance</artifactId>
+             </exclusion>
+         </exclusions>
+        </dependency>
+
         <dependency>
             <groupId>com.finder</groupId>
             <artifactId>finder-rs-client</artifactId>
