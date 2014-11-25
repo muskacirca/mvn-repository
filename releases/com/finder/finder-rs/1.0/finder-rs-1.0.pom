@@ -108,7 +108,7 @@
             <configuration>
                 <warName>finder-rs</warName>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
-                <!--<webXml>src/main/webapp/WEB-INF/web.xml</webXml>-->
+                <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
             </configuration>
         </plugin>
 
